@@ -1,6 +1,12 @@
+.btns{
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .primary-btn , .secondary-btn, .icon-btn, .icon-with-text{
     padding: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
     border: none;
 }
 
@@ -21,6 +27,7 @@
 .link-btn{
     text-decoration: underline;
     color: blue;
+    margin: 0.5rem;
 }
 .icon-btn{
     background-color: white;
@@ -43,4 +50,16 @@
 .icon-with-text>i{
     color: aliceblue;
     margin-right: 0.2em;
+}
+/* code snippet */
+.code-snippet{
+    margin-top: 3em;
+    height: fit-content;
+    text-align: center;
+}
+.code-snippet>iframe{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 300px;
 }
