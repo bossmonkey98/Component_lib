@@ -11,9 +11,6 @@ body{
     grid-area: header;
 }
 .left_menu{
-    position: fixed;
-    top: 6em;
-    left: 4em;
     font-size: 1.1rem;
     align-self: start;
     text-align: start;
