@@ -1,0 +1,135 @@
+.img-avatar{
+    display: flex;
+    align-items:flex-end;
+    column-gap:0.2em;
+    padding: 1em;
+    margin: 2em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.large-img-avatar{
+    margin: 0.2em;
+    width:200px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    overflow: hidden;
+}
+.medium-img-avatar{
+    display: flex;
+    margin: 0.2em;
+    width: 150px;
+    height: 150px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.small-img-avatar{
+    margin: 0.2em;
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.xs-img-avatar{
+    margin: 0.2em;
+    width: 50px;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.avatar-img1{
+    width: 100%;
+    height: 100%;
+}
+.avatar-img2{
+    width: 100%;
+    height: 100%;
+}
+
+.avatar-img3{
+    width: 100%;
+    height: 100%;
+}
+.avatar-img4{
+    width: 100%;
+    height: 100%;
+}
+.code-snippet{
+    margin-top: 3em;
+    height: fit-content;
+    text-align: center;
+}
+.code-snippet>iframe{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 300px;
+}
+
+/* txt avatars */
+.txt-avatar{
+    display: flex;
+    align-items:center;
+    column-gap:0.2em;
+    padding: 1em;
+    margin: 2em;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+
+}
+
+.large-txt-avatar{
+    margin: 0.2em;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid lightgray;
+    font-size: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: plum;
+    background-color: blueviolet;
+}
+.medium-txt-avatar{
+    margin: 0.2em;
+    width: 150px;
+    height: 150px;
+    border: solid lightgray;
+    border-radius: 50%;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: plum;
+    background-color: blueviolet;
+}
+.small-txt-avatar{
+    margin: 0.2em;
+    width: 100px;
+    height: 100px;
+    border: solid lightgray;
+    border-radius: 50%;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: plum;
+    background-color: blueviolet;
+}
+.xs-txt-avatar{
+    margin: 0.2em;
+    width: 50px;
+    height: 50px;
+    border: solid lightgray;
+    border-radius: 50%;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: plum;
+    background-color: blueviolet;
+}

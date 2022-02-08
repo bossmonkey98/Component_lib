@@ -1,0 +1,82 @@
+@import url(avatars.css);
+.badges-on-icons{
+    display: flex;
+    align-items: center;
+    column-gap: 2em;
+    margin: 2em;
+    padding: 2em;
+    border: 1px solid lightgrey;
+}
+
+.bell-icon-badge{
+    display: flex;
+}
+.cart-icon-badge{
+    display: flex;
+}
+.whatsapp-icon-badge{
+    display: flex;
+}
+.bell-icon-badge>i{
+    color: black;
+}
+.cart-icon-badge>i{
+    color:black;
+}
+.whatsapp-icon-badge>i{
+    color: darkgreen;
+}
+span{
+    color: aliceblue;
+    background-color: red;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.code-snippet{
+    margin-top: 3em;
+    height: fit-content;
+    text-align: center;
+}
+.code-snippet>iframe{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 300px;
+}
+
+/* badge on avatar*/
+.badge-on-avatar{
+    display: flex;
+    align-items: baseline;
+    column-gap: 1em;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.badge-container{
+    position: relative;
+    width: fit-content;
+    box-sizing: border-box;
+    margin: 1em;
+}
+.online-badge{
+    width: 25px;
+    height: 25px;
+    position:absolute;
+    background-color: green;
+    border : 2px solid white;
+    left:9.5rem;
+    bottom: 1em;
+}
+.offline-badge{
+    width: 25px;
+    height: 25px;
+    position:absolute;
+    background-color: red;
+    border : 2px solid white;
+    left:7.1rem;
+    bottom: 0.8em;
+}

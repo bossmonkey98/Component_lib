@@ -1,0 +1,58 @@
+.Horizontal-card{
+    border-radius: 10px;
+    width:max-content;
+    display:grid;
+    border: 1px solid rgba(149, 157, 165, 0.2);
+    grid-template-columns:min-content min-content;
+    grid-template-areas: "img desc";
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+#CardImg{
+    display: block;
+    margin: 5px;
+    align-self: center;
+    height: 90%;
+    width: 120px;
+    grid-area: img;
+}
+.footer{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width:max-content;
+    grid-area: desc;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    width: 6em;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #6535e9d8;
+}
+button:nth-child(2){
+    background-color: white;
+    border: 1px solid #6535e9d8;
+    color: #6535e9d8;
+}
+
+/* vertical card */
+.vertical-card{
+    border-radius: 10px;
+    overflow: hidden;
+    width: fit-content;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.footer-content{
+    margin-left:10px ;
+}
+#cardimg2{
+    width: 100%;
+    height:12em
+}

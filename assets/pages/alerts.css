@@ -1,0 +1,66 @@
+
+.alerts{
+    font-size: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;    margin: 1em;
+}
+.alerts>div{
+    padding: 15px;
+    margin:10px;
+    border-radius: 0.2em;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+.success-alert{
+    color: darkgreen;
+    background-color: hsl(120, 75%, 84%);
+}
+.success-alert>i{
+    font-size:small;
+    padding: 2px;
+    margin-right:10px;
+    border: 1px solid green;
+    border-radius: 50%;
+    color: aliceblue;
+    font-weight: 500;
+    background-color: green;
+}
+.primary-alert{
+    margin: 10px;
+    background-color:#9ab8f1;
+    color: rgb(21, 36, 49);
+}
+.secondary-alert{
+    color: hsl(251, 18%, 30%);
+    background-color: #cec8e7;
+}
+.danger-alert{
+    color: red;
+    background-color: rgb(238, 150, 144);
+}
+.danger-alert>i{
+    font-size: medium;
+    background-color: rgb(238, 150, 144);
+    color: rgb(221, 81, 71);
+    margin-right: 10px;
+}
+
+.warning-alert{
+    color: orange;
+    background-color:rgb(240, 207, 151);
+}
+.warning-alert>i{
+    color: orange;
+    font-size: medium;
+    margin-right: 10px;
+}
+.alert-code-snippet{
+    margin-top: 3em;
+    height: fit-content;
+}
+.alert-code-snippet>iframe{
+    width: 100%;
+    height:300px;
+}
