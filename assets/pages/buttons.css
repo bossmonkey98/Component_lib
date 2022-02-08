@@ -1,0 +1,46 @@
+.primary-btn , .secondary-btn, .icon-btn, .icon-with-text{
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+}
+
+.primary-btn{
+    background-color: var(--primary);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.primary-btn:hover, .secondary-btn:hover, .icon-btn:hover, .icon-with-text:hover{
+    background-color: rgb(116, 123, 129);
+}
+.secondary-btn{
+    border: 1px solid var(--primary);
+    background-color: white;
+    color: var(--primary);
+    border-radius: 10px;
+}
+.link-btn{
+    text-decoration: underline;
+    color: blue;
+}
+.icon-btn{
+    background-color: white;
+    color: var(--primary);
+    font-size: large;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
+.icon-with-text{
+    width: 12em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.icon-with-text>i{
+    color: aliceblue;
+    margin-right: 0.2em;
+}
