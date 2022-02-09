@@ -1,6 +1,7 @@
 @import url(docs.css);
 :root{
     --primary:#6535e9d8;
+    --secondary:aliceblue;
 }
 body{
     display: flex;

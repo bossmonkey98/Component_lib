@@ -1,0 +1,74 @@
+.btns{
+    border:1px solid lightgrey;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.primary-btn , .secondary-btn, .icon-btn, .icon-with-text{
+    padding:1rem;
+    margin:5px;
+    border:none;
+}
+
+.primary-btn{
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius:10px;
+}
+
+.primary-btn:hover, .secondary-btn:hover, .icon-btn:hover, .icon-with-text:hover{
+    background-color:rgb(116, 123, 129);
+}
+
+.secondary-btn{
+    border:1px solid var(--primary);
+    background-color:white;
+    color:var(--primary);
+    border-radius:10px;
+}
+
+.link-btn{
+    text-decoration:underline;
+    color:blue;
+    margin:5px;
+}
+
+.icon-btn{
+    background-color:white;
+    color:var(--primary);
+    font-size:large;
+    width:fit-content;
+    height:fit-content;
+    border-radius:10px;
+}
+
+.icon-with-text{
+    width:12em;
+    height:3em;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:var(--primary);
+    color:var(--secondary);
+    border-radius:10px;
+}
+
+.icon-with-text>i{
+    color:var(--secondary);
+    margin-right:5px;
+}
+
+/* code snippet */
+.code-snippet{
+    margin-top:3em;
+    height:fit-content;
+    text-align:center;
+}
+
+.code-snippet>iframe{
+    width:100%;
+    padding:0px;
+    margin:0px;
+    height:20em;
+}
