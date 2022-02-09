@@ -1,33 +1,40 @@
 @import url(avatars.css);
+
 .badges-on-icons{
-    display: flex;
-    align-items: center;
-    column-gap: 2em;
-    margin: 2em;
-    padding: 2em;
-    border: 1px solid lightgrey;
+    display:flex;
+    align-items:center;
+    column-gap:2em;
+    margin:2em;
+    padding:2em;
+    border:1px solid lightgrey;
 }
 
 .bell-icon-badge{
-    display: flex;
+    display:flex;
 }
+
 .cart-icon-badge{
-    display: flex;
+    display:flex;
 }
+
 .whatsapp-icon-badge{
-    display: flex;
+    display:flex;
 }
+
 .bell-icon-badge>i{
-    color: black;
+    color:black;
 }
+
 .cart-icon-badge>i{
     color:black;
 }
+
 .whatsapp-icon-badge>i{
     color: darkgreen;
 }
+
 span{
-    color: aliceblue;
+    color:var(--secondary);
     background-color: red;
     height: 1rem;
     width: 1rem;
@@ -36,11 +43,13 @@ span{
     justify-content: center;
     align-items: center;
 }
+
 .code-snippet{
     margin-top: 3em;
     height: fit-content;
     text-align: center;
 }
+
 .code-snippet>iframe{
     width: 100%;
     padding: 0px;
