@@ -14,33 +14,33 @@
 .primary-btn{
     background-color: var(--primary);
     color: var(--secondary);
-    border-radius: 10px;
+    border-radius:10px;
 }
 
 .primary-btn:hover, .secondary-btn:hover, .icon-btn:hover, .icon-with-text:hover{
-    background-color: rgb(116, 123, 129);
+    background-color:rgb(116, 123, 129);
 }
 
 .secondary-btn{
-    border: 1px solid var(--primary);
-    background-color: white;
-    color: var(--primary);
-    border-radius: 10px;
+    border:1px solid var(--primary);
+    background-color:white;
+    color:var(--primary);
+    border-radius:10px;
 }
 
 .link-btn{
-    text-decoration: underline;
-    color: blue;
-    margin: 5px;
+    text-decoration:underline;
+    color:blue;
+    margin:5px;
 }
 
 .icon-btn{
-    background-color: white;
-    color: var(--primary);
-    font-size: large;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 10px;
+    background-color:white;
+    color:var(--primary);
+    font-size:large;
+    width:fit-content;
+    height:fit-content;
+    border-radius:10px;
 }
 
 .icon-with-text{
@@ -50,7 +50,7 @@
     align-items:center;
     justify-content:center;
     background-color:var(--primary);
-    color: var(--secondary);
+    color:var(--secondary);
     border-radius:10px;
 }
 
