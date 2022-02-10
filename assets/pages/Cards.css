@@ -1,8 +1,9 @@
 .Horizontal-card{
+    background-color: var(--ternary);
     border-radius: 10px;
     width:max-content;
     display:grid;
-    border: 1px solid rgba(149, 157, 165, 0.2);
+    border: 1px solid lightgray;
     grid-template-columns:min-content min-content;
     grid-template-areas: "img desc";
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
@@ -31,13 +32,12 @@ button{
     width: 6em;
     border: none;
     border-radius: 10px;
-    color: white;
-    background-color: #6535e9d8;
+    color:(--ternary);
+    background-color:var(--primary);
 }
 button:nth-child(2){
-    background-color: white;
-    border: 1px solid #6535e9d8;
-    color: #6535e9d8;
+    background-color: var(--secondary);
+    border: 1px solid var(--primary);
 }
 
 /* vertical card */
