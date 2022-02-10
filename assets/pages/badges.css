@@ -4,9 +4,11 @@
     display:flex;
     align-items:center;
     column-gap:2em;
-    margin:2em;
-    padding:2em;
+    margin:1em;
+    padding:1em;
     border:1px solid lightgrey;
+    background-color:var(--secondary);
+    border-radius: 10px;
 }
 
 .bell-icon-badge{
@@ -21,44 +23,30 @@
     display:flex;
 }
 
-.bell-icon-badge>i{
-    color:black;
-}
-
-.cart-icon-badge>i{
-    color:black;
+.bell-icon-badge>i, .cart-icon-badge>i{
+    color:var(--primary);
 }
 
 .whatsapp-icon-badge>i{
-    color: darkgreen;
+    color:darkgreen;
 }
 
 span{
+    position: absolute;
     color:var(--secondary);
     background-color: red;
     height: 1rem;
     width: 1rem;
+    border: 0.5px solid var(--secondary);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.code-snippet{
-    margin-top: 3em;
-    height: fit-content;
-    text-align: center;
-}
-
-.code-snippet>iframe{
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    height: 300px;
-}
-
 /* badge on avatar*/
 .badge-on-avatar{
+    background-color:var(--secondary);
     display: flex;
     align-items: baseline;
     column-gap: 1em;
@@ -76,7 +64,7 @@ span{
     height: 25px;
     position:absolute;
     background-color: green;
-    border : 2px solid white;
+    border : 2px solid lightgray;
     left:9.5rem;
     bottom: 1em;
 }
@@ -85,7 +73,7 @@ span{
     height: 25px;
     position:absolute;
     background-color: red;
-    border : 2px solid white;
+    border : 2px solid lightgray;
     left:7.1rem;
     bottom: 0.8em;
 }

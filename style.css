@@ -1,14 +1,19 @@
 @import url(docs.css);
 :root{
-    --primary:#6535e9d8;
-    --secondary:aliceblue;
+    --primary:rgb(112, 182, 182);
+    --secondary:White;
 }
 body{
+    background-image: url(./assets/images/wraith3.jpg);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family:Open Sans,Helvetica,Arial,sans-serif;
     font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: var(--secondary);
 }
 i{
     font-size: 2em;
@@ -23,6 +28,8 @@ i{
 }
 
 #logo{
+    font-size: 30px;
+    font-weight: 600;
     margin-left: 20px;
     cursor: context-menu;
 }
@@ -61,7 +68,7 @@ i{
     background-color: var(--primary);
     padding: 10px;
     border: none;
-    color: white;
+    color: var(--secondary);
     width: 150px;
     border-radius:20px;
     margin: 15px;
@@ -69,8 +76,8 @@ i{
 .btn2{
     font-size: large;
     color: var(--primary);
-    background-color: white;
-    border: 1px solid var(--primary);
+    background-color: var(--secondary);
+    border: none;
     padding: 10px;
     width: 150px;
     margin: 15px;
