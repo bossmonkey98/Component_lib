@@ -1,7 +1,9 @@
 @import url(docs.css);
 :root{
-    --primary:rgb(112, 182, 182);
+    --primary:cyan;
     --secondary:White;
+    --ternary:#00000098;
+    --btn-bg: rgba(211, 211, 211, 0.301);
 }
 body{
     background-image: url(./assets/images/wraith3.jpg);
@@ -15,10 +17,12 @@ body{
     letter-spacing: 1.5px;
     color: var(--secondary);
 }
+
 i{
     font-size: 2em;
     color:var(--primary);
 }
+
 .navbar{
     display: grid;
     width:100%;
@@ -33,6 +37,7 @@ i{
     margin-left: 20px;
     cursor: context-menu;
 }
+
 .name{
     color: var(--primary);
     margin: 10px;
@@ -70,18 +75,22 @@ i{
     background-color: var(--primary);
     padding: 10px;
     border: none;
-    color: var(--secondary);
+    color: var(--ternary);
     width: 150px;
     border-radius:20px;
     margin: 15px;
 }
 .btn2{
     font-size: large;
-    color: var(--primary);
+    color: var(--ternary);
     background-color: var(--secondary);
     border: none;
     padding: 10px;
     width: 150px;
     margin: 15px;
     border-radius: 20px;
+}
+.btn1:hover , .btn2:hover{
+    background-color: var(--btn-bg);
+    border: 1px solid var(--primary);
 }

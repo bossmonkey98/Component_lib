@@ -1,0 +1,17 @@
+.rating-container{
+    background-color: var(--ternary);
+    display: flex;
+    align-items: baseline;
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.rating-container>span>i{
+    margin: 2px;
+    font-size: larger;
+    color:gold;
+}
+
+.rating-container>span:last-child>i{
+    color: darkgrey;
+}

@@ -6,8 +6,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 5em;
-    background-color: var(--secondary);
-    color: black;
+    background-color: var(--ternary);
+    color: var(--secondary);
     border-radius: 10px;
 }
 .style-list{
@@ -18,8 +18,8 @@
     flex-wrap: wrap;
     column-gap: 5em;
     border: 1px solid lightgrey;
-    background-color: var(--secondary);
-    color: black;
+    background-color: var(--ternary);
+    color: var(--secondary);
     border-radius: 10px;
 }
 
