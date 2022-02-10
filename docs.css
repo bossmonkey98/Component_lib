@@ -7,7 +7,7 @@ body{
     grid-template-areas: 'header header header'
     'left_menu conten conten';
 }
-#topbar{
+.navbar{
     grid-area: header;
 }
 .left_menu{
