@@ -4,7 +4,7 @@
     --secondary:White;
     --ternary:#00000098;
     --btn-bg: rgba(211, 211, 211, 0.301);
-    --bg-color:var(--bg-color);
+    --bg-color:lightgrey;
 }
 
 body{
