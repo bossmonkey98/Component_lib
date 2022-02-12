@@ -1,5 +1,6 @@
 .text-container{
-    border: 1px solid lightgray;
+    border: 1px solid var(--bg-color);
     padding: 10px;
     background-color: var(--ternary);
+    border-radius: 10px;
 }

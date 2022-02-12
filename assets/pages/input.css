@@ -1,6 +1,6 @@
 .text-area{
     width: 80%;
-    border: 1px solid lightgrey;
+    border: 1px solid var(--bg-color);
     border-radius: 5px;
     padding: 10px;
     display: flex;
@@ -16,7 +16,7 @@
 .btn{
     margin: 5px;
     padding: 5px;
-    width:100px;
+    width:4rem;
     color: var(--ternary);
     background-color: var(--primary);
     border: none;
@@ -36,6 +36,7 @@
     flex-direction: column;
     margin: 5px;
     padding: 10px;
+    border: 1px solid var(--bg-color);
     border-radius: 10px;
 }
 .form>input{
