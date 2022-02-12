@@ -12,9 +12,7 @@
 <body>
     <header class="navbar">
         <div id="logo">
-            <a href="../../index.html">
-                <span><img class="logo-icon" src="../images/apex-legends-symbol-white.png" alt="A"></span>
-                <span class="name">pex UI</span></a>
+            <a href="../../index.html"><section class="name">Apex UI</section></a>
         </div>
         <div class="Home">
             <a href="https://github.com/bossmonkey98"><i class="bi bi-github"></i></a>
@@ -46,70 +44,43 @@
     <div class="content">
         <h1>Cards</h1>
         <p>Card are used to show user related data collectively, like product details.</p>
-        <h2>Example of Horizontal Cards + Text with Image</h2>
-        <div class="horizontal-card">
-            <img class="card-img" src="../images/Cards.jpg" alt="#">
-            <div class="card-content">
-                <h2>Horizontal Card</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta minima possimus
-                <br>
-                <Button class="horizontal-card-btn">Read more</Button>
-            </div>
-        </div>
-        <div class="code-snippet">
-            <iframe
-                src="https://carbon.now.sh/embed/iuDxSu6q8uzs6bGTC8SF"
-                style="border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
-        </div>
-        <h2>Example of Vertical Cards with image/text only + shadow + dismiss + badge + text overlay</h2>
-        <div class="vertical-card-container">
-            <!-- text-only -->
-            <div class="vertical-card">
-                <div class="vertical-card-content">
-                    <h2>Text Only Card</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Ipsam .....
+        <h3>Example of Horizontal Cards + Text with Image</h3>
+        <div class="Horizontal-card">
+                <img id="CardImg" src="../images/Cards.jpg" alt="">
+            <div class="footer">
+                <h4 style="margin-top: 15px;">Pink Mens Hoodie</h4>
+                    Sold by H&M
                     <br>
-                    <button class="card-btn">Read more</button>
+                    Cotton Blend
+                    <p> Rs.2000 <span style="text-decoration: line-through;color: rgb(87, 84, 84);">Rs.2500</span></p>
+                <div class="btns">
+                    <Button>Buy Now</Button>
+                    <Button>Select Size</Button>
                 </div>
-            </div>
-            <!-- card with text over lay and badge -->
-            <div class="vertical-card">
-                <img class="vertical-card-img" src="../images/Cards.jpg" alt="">
-                <span class="card-badge">Best Seller</span>
-                <div class="vertical-card-content">
-                    <h2>Vertical Card</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Ipsam .....
-                    <br>
-                    <button class="card-btn">Read more</button>
-                </div>
-                <div class="text-overlay">
-                    <h2>Out of stock</h2>
-                </div>
-            </div>
-            <!-- card with close button and badge -->
-            <div class="vertical-card">
-                <img class="vertical-card-img" src="../images/Cards.jpg" alt="">
-                <span class="card-badge">Best Seller</span>
-                <span class="close-btn"><button>X</button></span>
-                <div class="vertical-card-content">
-                    <h2>Vertical Card</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Ipsam .....
-                    <br>
-                    <button class="card-btn">Read more</button>
-                </div>
-            </div>
+            </div> 
         </div>
-        <div class="code-snippet">
-            <iframe
-                src="https://carbon.now.sh/embed/AkLmAWsm6jColLtehWvk"
-                style="border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
+        <h3>
+            Example of Vertical Cards 
+        </h3>
+        <div class="vertical-card">
+            <div>
+                <img id="cardimg2" src="../images/Cards.jpg" alt="">
+            </div>
+            <div class="Vertical-footer">
+                <div class="footer-content">
+                    <h4 style="margin: 10px 0px;">Pink Mens Hoodie</h4>
+                    <p style="font-size: medium; margin:10px 0px;">
+                        Sold by H&M
+                    <br>
+                    Cotton Blend
+                    </p>
+                    Rs.2000 <span style="text-decoration: line-through;color: rgb(87, 84, 84);">Rs.2500</span>
+                </div>
+                <div class="btns">
+                    <button>Buy Now</button>
+                    <button>Select Size</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>

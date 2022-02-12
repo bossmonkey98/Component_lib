@@ -1,139 +1,58 @@
-.horizontal-card{
-    background-color: var(--ternary);
+.Horizontal-card{
     border-radius: 10px;
-    width:80%;
-    max-width: 30rem;
-    max-height:22rem;
-    display: flex;
-    flex-direction: row;
-    border: 1px solid lightgray;
-}
-
-.card-img{
+    width:max-content;
+    display:grid;
+    border: 1px solid rgba(149, 157, 165, 0.2);
+    grid-template-columns:min-content min-content;
+    grid-template-areas: "img desc";
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+#CardImg{
+    display: block;
     margin: 5px;
     align-self: center;
-    height: 100%;
-    max-height: 20rem;
-    width: 100%;
-    max-width: 15rem;
-    border-radius: 10px;
+    height: 90%;
+    width: 120px;
+    grid-area: img;
 }
-
-.card-content{
-    align-items: center;
-    text-align: center;
-    font-size: medium;
-}
-.horizontal-card-btn{
-    padding: 5px;
-    background-color: var(--primary);
-    border: none;
-    border-radius: 5px;
-}
-
-.horizontal-card-btn:hover{
-    background-color: var(--btn-bg);
-    border: 1px solid var(--primary);
-    color: var(--secondary);
-}
-
-/* Vertical cards */
-.vertical-card-container{
-    box-sizing: border-box;
-    padding: 20px;
-    width: 90%;
-    display:grid;
-    column-gap: 10px;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color:rgba(255, 255, 255, 0.808);
-}
-.vertical-card{
-    background-color: var(--secondary);
-    color: black;
-    position: relative;
-    width: 100%;
-    max-height: 105rem;
+.footer{
+    margin: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: 1px solid var(--secondary);
-    font-size: small;
-    line-height: 18px;
-    letter-spacing: normal;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.37);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
+    width:max-content;
+    grid-area: desc;
 }
-
-.card-badge{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    font-weight: 400;
-    border: none;
-    background-color: orange;
-    padding: 4px;
-    border-radius: 5px;
+.btns{
+    display: flex;
+    flex-wrap: wrap;
 }
-.vertical-card-img{
-    width: 90%;
-    overflow: hidden;
-}
-
-.vertical-card-content{
-    text-align: center;
-}
-
-.card-btn{
+button{
+    margin: 5px;
     padding: 5px;
-    background-color: var(--primary);
-    border: 1px solid black;
-    border-radius: 5px;
-    margin:10px ;
-}
-
-.card-btn:hover{
-    background-color: var(--btn-bg);
-    border: 1px solid var(--primary);
-}
-
-/* text overlay */
-.text-overlay{
-    position:absolute;
-    background-color: var(--ternary);
-    width: 99%;
-    height: 99%;
-    text-align: center;
-    align-self: center;
-    border-radius: 5px;
-    color:var(--secondary);
-    line-height: normal;
-}
-/* Closwe button */
-
-.close-btn{
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    width: 20px;
-    height: 20px;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.close-btn>button{
-    font-weight: 600;
+    width: 6em;
     border: none;
-    background-color: var(--btn-bg);
-    width: 100%;
-    height: 100%;
+    border-radius: 10px;
+    color: white;
+    background-color: #6535e9d8;
+}
+button:nth-child(2){
+    background-color: white;
+    border: 1px solid #6535e9d8;
+    color: #6535e9d8;
 }
 
-.close-btn>button:hover{
-    background-color: darkgrey;
+/* vertical card */
+.vertical-card{
+    border-radius: 10px;
+    overflow: hidden;
+    width: fit-content;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.footer-content{
+    margin-left:10px ;
+}
+#cardimg2{
+    width: 100%;
+    height:12em
 }

@@ -32,7 +32,7 @@
     color:darkgreen;
 }
 
-.badge{
+span{
     position: absolute;
     color:var(--secondary);
     background-color: red;
@@ -69,7 +69,6 @@
     border : 2px solid lightgray;
     left:9.5rem;
     bottom: 1em;
-    border-radius: 50%;
 }
 .offline-badge{
     width: 25px;
@@ -79,5 +78,4 @@
     border : 2px solid lightgray;
     left:7.1rem;
     bottom: 0.8em;
-    border-radius: 50%;
 }
