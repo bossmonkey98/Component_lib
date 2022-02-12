@@ -4,18 +4,15 @@
     --secondary:White;
     --ternary:#00000098;
     --btn-bg: rgba(211, 211, 211, 0.301);
+    --bg-color:var(--bg-color);
 }
+
 body{
     background-image: url(./assets/images/wraith3.jpg);
     background-size: cover;
+    color: var(--secondary);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-family:Open Sans,Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    color: var(--secondary);
 }
 
 i{
@@ -32,52 +29,41 @@ i{
 }
 
 #logo{
-    font-size: 30px;
     font-weight: 600;
-    margin-left: 20px;
     cursor: context-menu;
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .logo-icon{
-    position: absolute;
-    width: 65px;
-    height: 60px;
-    left: 0px;
-    top: 2px;
+    width: 5rem;
+    height: 4rem;
+    align-self: center;
 }
 
 .name{
     color: var(--primary);
-    margin-left: 60px;
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 4rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .Home{
     display: flex;
-    font-size: 20px;
+    font-size:4rem;
     justify-content:flex-end;
     color:var(--primary) ;
 }
 .Home>a{
     margin: 10px;
-    padding: 15px;
+    padding:1rem;
     font-size: large;
 }
-.conten{
-    margin-top: 5%;
-    cursor:context-menu;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.conten>p{
-    width: 100%;
-    font-size: 70px;
-    line-height: normal;
+.content-container{
+    margin: 3rem;
+    width:80%;
+    align-self: center;
     text-align: center;
+    font-size: 5rem;
 }
 .btn1{
     font-size: large;
@@ -85,9 +71,9 @@ i{
     padding: 10px;
     border: none;
     color: var(--ternary);
-    width: 150px;
-    border-radius:20px;
-    margin: 15px;
+    width: 10rem;
+    border-radius:2rem;
+    margin: 8px;
 }
 .btn2{
     font-size: large;
@@ -95,9 +81,9 @@ i{
     background-color: var(--secondary);
     border: none;
     padding: 10px;
-    width: 150px;
-    margin: 15px;
-    border-radius: 20px;
+    width: 10rem;
+    margin: 8px;
+    border-radius:2rem;
 }
 .btn1:hover , .btn2:hover{
     background-color: var(--btn-bg);
