@@ -10,6 +10,7 @@
 body{
     background-image: url(./assets/images/wraith3.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     color: var(--secondary);
     display: flex;
     flex-direction: column;
