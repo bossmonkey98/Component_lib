@@ -43,20 +43,38 @@
     padding: 20px;
     width: 100%;
     display:flex;
-    column-gap: 10px;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 10px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color:rgba(255, 255, 255, 0.808);
+    background-color:var(--ternary);
 }
+
+.text-only-vertical-card{
+    background-color: var(--secondary);
+    color: black;
+    position: relative;
+    width: 18rem;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--secondary);
+    font-size: small;
+    line-height: 18px;
+    margin: 5px;
+    letter-spacing: normal;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .vertical-card{
     background-color: var(--secondary);
     color: black;
     position: relative;
-    width: 19rem;
-    max-height: 33rem;
+    width: 18rem;
+    max-height: 30rem;
     display: flex;
     flex-direction: column;
     align-items: center;
