@@ -1,7 +1,7 @@
 # ComponentLibrary
 # Mindify UI 
 <div align="center">
-<img src = "./assests/images/apex-legends-symbol-white.png" alt="logo" width="300px"/>
+<img src = "https://github.com/bossmonkey98/Component_lib/blob/main/assets/images/apex-legends-symbol-white.png" alt="logo" width="300px"/>
 <h2>Apex UI Component Library is made to build your webpages easier and faster just add the components and make your projects .</h2>
 </div>  
 
