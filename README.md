@@ -1,5 +1,5 @@
 # ComponentLibrary
-# Mindify UI 
+# Apex UI 
 <div align="center">
 <img src = "https://github.com/bossmonkey98/Component_lib/blob/main/assets/images/apex-legends-symbol-white.png" alt="logo" width="300px"/>
 <h2>Apex UI Component Library is made to build your webpages easier and faster just add the components and make your projects .</h2>
@@ -101,7 +101,6 @@ Image is used as picture representation
 Image types:
 - Responsive
 - Round
-- List 
 [Image Link](https://apexui.netlify.app/assets/pages/image)
 ---
 ### Input 
@@ -125,15 +124,6 @@ Modal types:
 - Modal Simple
 [Modal Link](https://apexui.netlify.app/assets/pages/modal)
 ---
-### Text-Utilities
-Text-Utilities are used for different types of text, heading and color:
-Text-Utilities types: 
-- Heading 
-- Small
-- Grey 
-- Center 
-[Text Utilities Link](https://apexui.netlify.app/assets/pages/typo)
---- 
 ### Navigation 
 In Navigation we used for the different functionality in one place in the header 
 Navigation types:
@@ -145,6 +135,7 @@ Ratings provides idea about the value of product from consumer and customers
 Rating types:
 - All 5 star ratings 
 [Ratings Link](https://apexui.netlify.app/assets/pages/rating)
+---
 ### Slider 
 Slider is UI makes project more interactive and select range of values
 Slider types:
@@ -152,3 +143,23 @@ Slider types:
 -Slider With Icon
 [Slider Link](https://apexui.netlify.app/assets/pages/Slider)
 ---
+### Grid Simplified
+Grid layout offers a grid-based layout system, with rows and columns, making
+it easier to design webpages
+Grid types:
+- 2-item grid layout
+- 3-item grid layout
+[Grids Link](https://apexui.netlify.app/assets/pages/grid)
+---
+### Text-Utilities
+Text-Utilities are used for different types of text, heading and color:
+Text-Utilities types: 
+- Heading 
+- Small
+- Grey 
+- Center 
+[Text Utilities Link](https://apexui.netlify.app/assets/pages/typo)
+--- 
+### Toast/ Snackbar
+Toast is used to show feedback message. Snackbar is used to show message thet need user action
+[Toast Link](https://apexui.netlify.app/assets/pages/toast)
