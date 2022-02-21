@@ -58,7 +58,7 @@ Alert component is used for alerts  for error,success,information and notificati
 - alert-success
 - alert-danger 
 - alert-warning
- [Alert Link](https://apexui.netlify.app/assets/pages/alerts.html)
+-[Alert Link](https://apexui.netlify.app/assets/pages/alerts.html)
 ---
 ### Avatar
 Avatar is image representation of person in the virtual world, we have circular avatar for different size.
@@ -73,7 +73,7 @@ Badges Notification
 Avatar Badges 
 - Online 
 - Offline 
-[Badges Link](https://apexui.netlify.app/assets/pages/badges)
+-[Badges Link](https://apexui.netlify.app/assets/pages/badges)
 --- 
 ### Button 
 Button give functionality to the website , give user interaction 
@@ -84,7 +84,7 @@ Badges types:
 - Icon 
 - Icon with Text
 - Float 
-[Button Link](https://apexui.netlify.app/assets/pages//buttons)
+-[Button Link](https://apexui.netlify.app/assets/pages//buttons)
 ---
 ### Card 
 Card is the component used for making website for representing image, functionality and information in one component which make UI attractive 
@@ -94,7 +94,7 @@ Card types:
 - Card-Vertical-Text-Only
 - Card-Vertical-with-Text-Overlay-Badge
 - Card-Vertical-with-Badge-Dismiss
-[Card Link](https://apexui.netlify.app/assets/pages/Cards)
+-[Card Link](https://apexui.netlify.app/assets/pages/Cards)
 ---
 ###   Image 
 Image is used as picture representation 
@@ -109,39 +109,39 @@ Input types:
 - Text-Area
 - Form-Validation 
 - Form-Wrong-Validation 
-[Input Link](https://apexui.netlify.app/assets/pages/input)
+-[Input Link](https://apexui.netlify.app/assets/pages/input)
 ---
 ### List 
 List are representation of iamge and text in vertical .
 List types:
 - Ordered Lists
 - Unordered Lists
-[List Link](https://apexui.netlify.app/assets/pages/list)
+-[List Link](https://apexui.netlify.app/assets/pages/list)
 ---
 ### Modal 
 Modals are used for confirmation.
 Modal types:
 - Modal Simple
-[Modal Link](https://apexui.netlify.app/assets/pages/modal)
+-[Modal Link](https://apexui.netlify.app/assets/pages/modal)
 ---
 ### Navigation 
 In Navigation we used for the different functionality in one place in the header 
 Navigation types:
 - Navigation Simple 
-[Navigation Link](https://apexui.netlify.app/assets/pages/nav)
+-[Navigation Link](https://apexui.netlify.app/assets/pages/nav)
 --- 
 ### Ratings 
 Ratings provides idea about the value of product from consumer and customers
 Rating types:
 - All 5 star ratings 
-[Ratings Link](https://apexui.netlify.app/assets/pages/rating)
+-[Ratings Link](https://apexui.netlify.app/assets/pages/rating)
 ---
 ### Slider 
 Slider is UI makes project more interactive and select range of values
 Slider types:
 -Simple Slider
 -Slider With Icon
-[Slider Link](https://apexui.netlify.app/assets/pages/Slider)
+-[Slider Link](https://apexui.netlify.app/assets/pages/Slider)
 ---
 ### Grid Simplified
 Grid layout offers a grid-based layout system, with rows and columns, making
@@ -149,7 +149,7 @@ it easier to design webpages
 Grid types:
 - 2-item grid layout
 - 3-item grid layout
-[Grids Link](https://apexui.netlify.app/assets/pages/grid)
+-[Grids Link](https://apexui.netlify.app/assets/pages/grid)
 ---
 ### Text-Utilities
 Text-Utilities are used for different types of text, heading and color:
@@ -158,8 +158,8 @@ Text-Utilities types:
 - Small
 - Grey 
 - Center 
-[Text Utilities Link](https://apexui.netlify.app/assets/pages/typo)
+-[Text Utilities Link](https://apexui.netlify.app/assets/pages/typo)
 --- 
 ### Toast/ Snackbar
 Toast is used to show feedback message. Snackbar is used to show message thet need user action
-[Toast Link](https://apexui.netlify.app/assets/pages/toast)
+-[Toast Link](https://apexui.netlify.app/assets/pages/toast)
