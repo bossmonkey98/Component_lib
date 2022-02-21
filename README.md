@@ -1,4 +1,4 @@
-# ComponentLibrary
+# Component_Library
 # Apex UI 
 <div align="center">
 <img src = "https://github.com/bossmonkey98/Component_lib/blob/main/assets/images/apex-legends-symbol-white.png" alt="logo" width="300px"/>
