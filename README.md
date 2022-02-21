@@ -60,7 +60,7 @@ Alert component is used for alerts  for error,success,information and notificati
 - alert-warning
  [Alert Link](https://apexui.netlify.app/assets/pages/alerts.html)
 ---
-### Avatar 
+### Avatar
 Avatar is image representation of person in the virtual world, we have circular avatar for different size.
 [Avatar Link](https://apexui.netlify.app/assets/pages/avatar)
 ---
