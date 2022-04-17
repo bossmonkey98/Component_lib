@@ -56,6 +56,9 @@
             <div class="danger-alert"><i  class="bi bi-exclamation-triangle-fill"></i>A danger alert example!!!</div>
             <div class="warning-alert"><i class="bi bi-exclamation-triangle-fill"></i>A warning alert example!!!</div>
         </div>
+        <div>
+            <button class="btn" onclick="myFunction()">Alert Demo</button>
+        </div>
         <div class="code-snippet">
             <iframe
             src="https://carbon.now.sh/embed/9lKbG60FqB0UPSHemPvp"
@@ -63,6 +66,16 @@
             sandbox="allow-scripts allow-same-origin">
           </iframe>          
         </div>
+        <div style="position: relative;">
+            <div  id="warning-alert"><i class="bi bi-exclamation-triangle-fill"></i>A warning alert example!!!</div>
+        </div>
     </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("warning-alert");
+          x.className = "show";
+          setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        }
+        </script>
 </body>
 </html>
