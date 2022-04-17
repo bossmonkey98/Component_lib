@@ -51,13 +51,10 @@
         <p>You can use the following alerts by copy-pasta the html code</p>
         <div class="alerts">
             <div class="primary-alert">A primary alert example with a text link <a href="#" style="text-decoration: underline;color: blue;">Click here</a></div>  
-            <div class="secondary-alert">A secondary alert example!!!</div>
-            <div class="success-alert"><i class="bi bi-check2"></i>A success alert example!!!</div>
-            <div class="danger-alert"><i  class="bi bi-exclamation-triangle-fill"></i>A danger alert example!!!</div>
-            <div class="warning-alert"><i class="bi bi-exclamation-triangle-fill"></i>A warning alert example!!!</div>
-        </div>
-        <div>
-            <button class="btn" onclick="myFunction()">Alert Demo</button>
+            <div class="secondary-alert">A secondary alert example!!! <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span></div>
+            <div class="success-alert"><i class="bi bi-check2"></i>A success alert example!!! <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span></div>
+            <div class="danger-alert"><i  class="bi bi-exclamation-triangle-fill"></i>A danger alert example!!! <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span></div>
+            <div class="warning-alert"><i class="bi bi-exclamation-triangle-fill"></i>A warning alert example!!! <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span></div>
         </div>
         <div class="code-snippet">
             <iframe
@@ -66,16 +63,6 @@
             sandbox="allow-scripts allow-same-origin">
           </iframe>          
         </div>
-        <div style="position: relative;">
-            <div  id="warning-alert"><i class="bi bi-exclamation-triangle-fill"></i>A warning alert example!!!</div>
-        </div>
     </div>
-    <script>
-        function myFunction() {
-          var x = document.getElementById("warning-alert");
-          x.className = "show";
-          setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-        }
-        </script>
 </body>
 </html>
