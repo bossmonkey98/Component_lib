@@ -1,3 +1,8 @@
+:root{
+    --avatar-bg-color: blueviolet;
+    --avatar-color: plum;
+}
+
 .img-avatar{
     display: flex;
     align-items:center;
@@ -77,8 +82,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: plum;
-    background-color: blueviolet;
+    color: var(--avatar-color);
+    background-color: var(--avatar-bg-color);
 }
 .medium-txt-avatar{
     width: 10rem;
@@ -89,8 +94,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: plum;
-    background-color: blueviolet;
+    color: var(--avatar-color);
+    background-color: var(--avatar-bg-color);
 }
 .small-txt-avatar{
     margin: 10px;
@@ -102,8 +107,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: plum;
-    background-color: blueviolet;
+    color: var(--avatar-color);
+    background-color: var(--avatar-bg-color);
 }
 .xs-txt-avatar{
     width: 5rem;
@@ -114,6 +119,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: plum;
-    background-color: blueviolet;
+    color: var(--avatar-color);
+    background-color: var(--avatar-bg-color);
 }
