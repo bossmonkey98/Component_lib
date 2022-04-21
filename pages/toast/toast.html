@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="toast.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../docs.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex UI</title>
+</head>
+<body>
+    <header class="navbar">
+        <div id="logo">
+            <a href="../../index.html">
+                <span><img class="logo-icon" src="../../assets/logo/apex-legends-symbol-white.png" alt="A"></span>
+                <span class="name">pex UI</span></a>
+        </div>
+        <div class="Home">
+            <a href="https://github.com/bossmonkey98"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/arun-kumar-0b95911aa/"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </header>
+    <div class="left_menu">
+        <h3>Getting Started</h3>
+        <ul><a href="../../docs.html">Introduction</a></ul>
+        <div>
+            <h3>Components</h3>
+            <ul><a href="../alerts/alerts.html">Alerts</a></ul>
+            <ul><a href="../avatar/avatar.html">Avatar</a></ul>
+            <ul><a href="../badges/badges.html">Badges</a></ul>
+            <ul><a href="../buttons/buttons.html">Buttons</a></ul>
+            <ul><a href="../Cards/Cards.html">Cards</a></ul>
+            <ul><a href="../image/image.html">Images</a></ul>
+            <ul><a href="../input/input.html">Inputs</a></ul>
+            <ul><a href="../list/list.html">Lists</a></ul>
+            <ul><a href="../modal/modal.html">Modal</a></ul>
+            <ul><a href="../nav/nav.html">Navigation</a></ul>
+            <ul><a href="../rating/rating.html">Rating</a></ul>
+            <ul><a href="../slider/slider.html">Slider</a></ul>
+            <ul><a href="../grid/grid.html">Grid Simplified</a></ul>
+            <ul><a href="../typo/typo.html">Typography</a></ul>
+            <ul><a href="./toast.html">Toast</a></ul>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Toast</h1>
+        <p>This component can be used for toast or snackbar component. 
+            Toast is mostly used to show feedback message. 
+            Snackbar is to used show message that need user action
+        </p>
+        <div class="toast-container">
+            <div class="success-toast">
+                <span>Saved!</span>
+            </div>
+            <div class="error-toast">
+                <span>Error!!! Please try again</span>
+            </div>
+        </div>
+        <div class="code-snippet">
+            <iframe
+                src="https://carbon.now.sh/embed/jXGOh87xJ43TPuERVibc"
+                style="border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+        <h3>Click the below CTA button to show demo of toast</h3>
+        <button class="btn" onclick="myFunction()">Demo</button>
+        <div class="success-toast" id="snackbar">
+            <span>Saved!</span>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("snackbar");
+        x.className = "show";
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        } 
+    </script>
+</body>
+</html>
