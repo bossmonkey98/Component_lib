@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../../docs.css">
@@ -35,8 +35,8 @@
             <ul><a href="../image/image.html">Images</a></ul>
             <ul><a href="../input/input.html">Inputs</a></ul>
             <ul><a href="../list/list.html">Lists</a></ul>
-            <ul><a href="./modal.html">Modal</a></ul>
-            <ul><a href="../nav/nav.html">Navigation</a></ul>
+            <ul><a href="../modal/modal.html">Modal</a></ul>
+            <ul><a href="./nav.html">Navigation</a></ul>
             <ul><a href="../rating/rating.html">Rating</a></ul>
             <ul><a href="../slider/slider.html">Slider</a></ul>
             <ul><a href="../grid/grid.html">Grid Simplified</a></ul>
@@ -45,42 +45,30 @@
         </div>
     </div>
     <div class="content">
-        <h1>Modal</h1>
-        <p>Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up.</p>
-        <h2>Example of Modal<h2>
-        <button id="mybtn">Open Modal</button>
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-        <!-- Modal content -->
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>This is Modal</p>
-            <p>You can enter your content here...</p>
-        </div>
+        <h1>Navigation</h1>
+        <p>Navigation bar is used to navigate through the web apps or websites. This navigation component is responsive. It is a hamburger menu in medium and small devices</p>
+        <h2>Example of Navigation</h2>
+        <div class="nav-container">
+            <nav class="nav-bar">
+                <div class="nav-ham-home">
+                    <section class="menu-icon"><i class="bi bi-list"></i></section>
+                    <span>Home</span>
+                </div>
+                <div class="nav-bar-icons">
+                    <span><i class="bi bi-heart-fill"></i></span>
+                    <span><i class="bi bi-share-fill"></i></span>
+                    <span><i class="bi bi-bookmark-fill"></i>
+                    </span>
+                </div>
+            </nav>
         </div>
         <div class="code-snippet">
-        <iframe
-            src="https://carbon.now.sh/embed/p1pPw2MlJB2OdqHvDPLO"
-            style="border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </iframe> 
+            <iframe
+                src="https://carbon.now.sh/embed/cy1BqaIJ2SLLHsx6ONqm"
+                style="border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>  
+        </div>
     </div>
-    <script>
-        var modal = document.getElementById("myModal");
-        var btn = document.getElementById("mybtn");
-        var span = document.getElementsByClassName("close")[0];
-        btn.onclick = function() {
-        modal.style.display = "block";
-        }
-
-        span.onclick = function() {
-        modal.style.display = "none";
-        }
-        window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-        } 
-    </script>
 </body>
 </html>
