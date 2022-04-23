@@ -44,3 +44,16 @@
     list-style: none;
     column-gap: 1.5rem;
 }
+
+.stacked-list-container{
+    border: 1px solid var(--bg-color);
+    width: fit-content;
+}
+
+.notification, .notification-active{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    font-size: medium;
+    margin: 12px;
+}
