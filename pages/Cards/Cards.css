@@ -70,7 +70,7 @@
     background-color: var(--ternary);
     position: relative;
     width: 16.4rem;
-    max-height: 20rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     font-size: small;
